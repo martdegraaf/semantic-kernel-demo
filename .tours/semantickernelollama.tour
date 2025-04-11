@@ -1,0 +1,15 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SemanticKernelOllama",
+  "steps": [
+    {
+      "file": "SemanticKernelOllama/Program.cs",
+      "description": "Semantic Kernel Builder",
+      "line": 17
+    },
+    {
+      "title": "Configuring Semantic Kernel",
+      "description": ""
+    }
+  ]
+}
