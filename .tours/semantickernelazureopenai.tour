@@ -1,0 +1,51 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "SemanticKernelAzureOpenAI",
+  "steps": [
+    {
+      "file": "AgentWithPlugin/Program.cs",
+      "description": "`builder.AddAzureOpenAIChatCompletion()` voegt Azure OpenAI als model toe aan de semantic kernel.",
+      "line": 10,
+      "selection": {
+        "start": {
+          "line": 10,
+          "character": 1
+        },
+        "end": {
+          "line": 22,
+          "character": 72
+        }
+      }
+    },
+    {
+      "file": "AgentWithPlugin/.env",
+      "description": "Set your config in a config file.\r\n\r\nI am using the vscode cloak extension here for obvious reasons..\r\n\r\n",
+      "line": 1,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 3,
+          "character": 56
+        }
+      }
+    },
+    {
+      "file": "AgentWithPlugin/Program.cs",
+      "description": "Let's say we have this Menu Plugin it has 2 methods that the Kernel can use.",
+      "line": 45,
+      "selection": {
+        "start": {
+          "line": 45,
+          "character": 1
+        },
+        "end": {
+          "line": 60,
+          "character": 2
+        }
+      }
+    }
+  ]
+}
